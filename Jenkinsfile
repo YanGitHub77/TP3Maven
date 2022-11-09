@@ -6,16 +6,13 @@ pipeline {
 				echo 'Building..'
 				bat 'cd monappli & mvn install'
 			}
+		}
+		stage('Test') {
 			post {
                 		success {
                     			junit '**/target/**/*.xml'
                         		}
                  		}
-		}
-		stage('Test') {
-			steps {
-				echo 'Testing..'
-			}
 		}
 		stage('Deploy') {
 			steps {
