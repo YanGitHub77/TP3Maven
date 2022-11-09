@@ -1,13 +1,11 @@
 pipeline {
 	agent any
 	stages {
-		stage('Build') {
+		stage('Build and Test' ) {
 			steps {
 				echo 'Building..'
 				bat 'cd monappli & mvn install'
 			}
-		}
-		stage('Test') {
 			post {
                 		success {
                     			junit '**/target/**/*.xml'
