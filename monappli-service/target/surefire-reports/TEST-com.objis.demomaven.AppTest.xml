@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.objis.demomaven.AppTest" time="0.04" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.objis.demomaven.AppTest" time="0.058" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.5\bin"/>
-    <property name="sun.java.command" value="C:\Users\orsys\AppData\Local\Temp\surefire14625654056659253387\surefirebooter17168995267183283844.jar C:\Users\orsys\AppData\Local\Temp\surefire14625654056659253387 2022-11-09T11-28-03_330-jvmRun1 surefire16174458381696421450tmp surefire_217362864265926415949tmp"/>
+    <property name="sun.java.command" value="C:\Users\orsys\AppData\Local\Temp\surefire7189812592876908666\surefirebooter14501425845848955093.jar C:\Users\orsys\AppData\Local\Temp\surefire7189812592876908666 2022-11-09T11-39-08_808-jvmRun1 surefire15877871213934509351tmp surefire_211267857167986983160tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\orsys\Desktop\jour2-MAVEN\TP3\monappli\monappli-service\target\test-classes;C:\Users\orsys\Desktop\jour2-MAVEN\TP3\monappli\monappli-service\target\classes;C:\Users\orsys\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\orsys\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\orsys\Desktop\jour2-MAVEN\TP3\monappli\monappli-dao\target\monappli-dao-1.0-SNAPSHOT.jar;C:\Users\orsys\Desktop\jour2-MAVEN\TP3\monappli\monappli-domaine\target\monappli-domaine-1.0-SNAPSHOT.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\orsys\AppData\Local\Temp\surefire14625654056659253387\surefirebooter17168995267183283844.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\orsys\AppData\Local\Temp\surefire7189812592876908666\surefirebooter14501425845848955093.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.5+10-LTS"/>
