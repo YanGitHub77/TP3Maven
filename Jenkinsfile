@@ -8,12 +8,10 @@ pipeline {
 				echo 'Fin Building..'
 			}
 			post {
-				echo 'Test..'
-                		success {
+				success {
                     			junit '**/target/**/*.xml'
                         		}
-                 		}
-				echo 'Fin Test..'
+                 		}				
 		}
 		stage('Deploy') {
 			steps {
